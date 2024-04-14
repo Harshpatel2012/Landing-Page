@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <style>
+        *{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        section{
+            width: 100%;
+            height: 100%;
+        }
+        header{
+            padding: 10px;
+            background-color: #fff;
+            color: #000;
+        }
+        nav{
+            justify-content: space-between;
+            position: relative;
+        }
+        ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        li{
+            list-style: none;
+            font-size: 20px;
+            display: flex;
+        }
+        a{
+            text-decoration: none;
+            padding: 20px;
+            color: #000;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: blue;
+        }
+        .searchbar{
+            padding: 5px;
+            align-items: center;
+            width: 50%;
+        }
+        .bar{
+            background-color: green;
+            color: white;
+            padding: 5px;
+            align-items: center;
+        }
+        .bar:hover{
+            background-color: rgb(19, 118, 19);
+            }
+        .mainpage{
+            opacity: 0.3;
+        }
+        .container{
+            position: relative;
+            text-align: center;
+            color: black;
+        }
+        .no{
+            position: relative;
+            text-align: left;
+            margin-top: -30%;
+            margin-left: 30%;
+        }
+        .text{
+            font-size: 40px;
+            font-weight: bold;
+            opacity: 0.9;
+            cursor: pointer;
+        }
+        .text1{
+            opacity: 0.9;
+        }
+        .button{
+            padding: 10px;
+            font-size: 15px;
+            font-weight: bold;
+            border-radius: 10px;
+            background-color: green;
+            opacity: 0.9;
+            cursor: progress;
+        }
+        .button:hover{
+            background-color: black;
+            color: white;
+        }
+        .about-page{
+            font-weight: bolder;
+            font-family:monospace;
+        }
+        .text2{
+            margin-top: -30%;
+            font-size: 35px;
+            margin-right: 45%;
+            cursor: default;
+            }
+        .text2:hover{
+            text-decoration: underline;
+        }
+        .text21{
+            margin-right:40%;
+            font-size: 20px;
+        }
+        .text22{
+            margin-right:40%;
+        }
+        .button1{
+            padding: 10px;
+            font-size: 15px;
+            font-weight: bold;
+            border-radius: 10px;
+            background-color: green;
+            margin-right: 45%;
+        }
+        .button1:hover{
+            background-color: black;
+            color: white;
+        }
+        .center{
+            text-align: center;
+            font-weight: bold;
+        }
+        .box{
+            display: flex;
+            justify-content: center;
+        }
+        .box1{
+            padding: 30px;
+        }
+        
+        .icon-bar {
+            display: flex;
+  position: relative;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+    display: block;
+  text-align: center;
+  padding: 10px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.google {
+    background: #dd4b39;
+    color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+    background: #bb0000;
+    color: white;
+}
+.contact-content{
+    justify-content: center;
+    display: flex;
+    gap: 100px;
+}
+.contact{
+    background-color: rgb(233, 230, 230);
+}
+.inputf{
+    padding: 5px;
+    width: 200%;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+.inputb{
+    padding: 5px;
+    width: 100px;
+    background-color: transparent;
+}
+.inputb:hover{
+    background-color: green;
+}
+
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <img src="logo.png" alt="logo" width="100px" height="70px">
+                <li><h2>Landing Page</h2></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><input class="searchbar" type="search" placeholder="Search here"><button class="bar">Search <i class="fa fa-search"></i></button></li>
+            </ul>
+        </nav>
+    </header>
+<section class="main-page" id="home">
+    <div class="container">
+       <img class="mainpage" src="main page.jpeg" alt="main page" width="100%" height="800px">
+    </div>
+       <div class="no">
+       <div class="text">Creative Digital Marketing</div>
+       <div class="text1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam maiores natus voluptate explicabo incidunt vel.<br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sint nisi fuga eveniet incidunt voluptatem iure officiis illum dolore asperiores.</div>
+        <br><button class="button">Learn More</button>
+    </div>
+</section><br><br><br><br><br><br><br><br><br>
+<br>
+<section class="about-page" id="about">
+    <div class="container">
+        <img class="aboutpage" src="about.avif" alt="main page" width="100%" height="500px">
+        <div class="text2">ABOUT US </div><br>
+        <div class="text21">15 Years,we are passionate about achieving better result for clients</div><br><br>
+        <div class="text22">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit libero accusamus <br>autem beatae odio recusandae ea quod voluptatibus harum enim impedit ab illum facilis temporibus, aliquid quibusdam ad inventore. Vel quisquam neque laboriosam officiis.<br> Incidunt quisquam eveniet esse magnam laboriosam!</div>
+        <br><div class="text22">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt fuga nemo cupiditate eos,<br> inventore possimus mollitia eligendi. <br>Laudantium tempore ex veniam adipisci asperiores odit ipsa ad! Nostrum aspernatur eveniet temporibus.</div>
+        <br><button class="button1">Read More</button>
+    </div>
+</section>
+<br><br><br>
+<section class="blog-page" id="blog">
+    <h2 class="center">BLOG</h2>
+    <div class="bolgflex">
+    <div class="w3-col l4"> 
+       <!-- About Card -->
+        <div class="w3-card w3-margin w3-margin-top">
+        <img src="blog.png" style="width:350px">
+          <div class="w3-container w3-white">
+            <h4><b>Digital Marketing</b></h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quaerat, voluptatum dignissimos quia officia eius accusamus inventore saepe quasi cumque?</p>
+          </div>
+        </div> 
+    </div>
+    </div>
+
+    <div class="bolgflex">
+        <div class="w3-col l4">
+            <!-- About Card -->
+            <div class="w3-card w3-margin w3-margin-top">
+            <img src="blog2.png" style="width:300px">
+              <div class="w3-container w3-white">
+                <h4><b>How to Create a Smarter Go to Market Approach in 4 Step</b></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quaerat, voluptatum dignissimos quia officia eius accusamus inventore saepe quasi cumque?</p>
+              </div>
+            </div> 
+        </div>
+        </div>
+
+        <div class="bolgflex">
+            <div class="w3-col l4">
+                <!-- About Card -->
+                <div class="w3-card w3-margin w3-margin-top">
+                <img src="blog3.webp" style="width:475px" height="300px">
+                  <div class="w3-container w3-white">
+                    <h4><b>Brilliant Creative on Tiny Budget:<br> 5 Examples from an Unlikely Source</b></h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quaerat, voluptatum dignissimos quia officia eius accusamus inventore saepe quasi cumque?</p>
+                  </div>
+                </div> 
+            </div>
+            </div>
+</section>
+
+<section class="services" >
+    <h1 class="center">OUR SERVICES</h1>
+            <div id="service"></div>
+            <div class="box">   
+                <img src="ser2.png" alt="services1" width="200px" height="200px">          
+                <div class="box1"><h4><b>Search Engine Optimization</b></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quaerat, voluptatum dignissimos quia <br>officia eius accusamus inventore saepe quasi cumque?</p>
+            </div>
+        </div>
+    <br>
+        
+        <div class="box">   
+            <img src="ser1.png" alt="services2" width="200px" height="200px">
+            <div class="box1">   <h4><b>Search Engine Marketing</b></h4>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quaerat, voluptatum dignissimos quia <br>officia eius accusamus inventore saepe quasi cumque?</p>
+                </div>
+            </div>
+<br>
+
+            <div class="box">   
+            <img src="ser3.png" alt="services3" width="200px" height="200px">
+            <div class="box1"> 
+                        <h4><b>Brilliant Creative on Tiny Budget:<br> 5 Examples from an Unlikely Source</b></h4>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quaerat, voluptatum dignissimos quia<br> officia eius accusamus inventore saepe quasi cumque?</p>
+                    </div>
+                </div>
+</section>
+
+<section class="contact" id="contact">
+    <h1 class="center">CONTACT US</h1>
+    <div class="contact-content">
+        <div class="loc">
+            <h2><b>LOCATION</b></h2>
+            <p class="loctext">Landmark,Sargasan,Gandhinagar</p>
+            <p class="loctext">382421</p><br>
+            <h3><b>FOLLOW US</b></h3><br>
+            <div class="icon-bar">
+                <a href="https://www.facebook.com/" class="facebook"><i class="fa fa-facebook"></i></a> 
+                <a href="https://twitter.com/?lang=en" class="twitter"><i class="fa fa-twitter"></i></a> 
+                <a href="https://www.google.co.in/webhp" class="google"><i class="fa fa-google"></i></a> 
+                <a href="https://in.linkedin.com/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.youtube.com/" class="youtube"><i class="fa fa-youtube"></i></a> <br>
+            </div>
+            <p style="font-family: 'Times New Roman', Times, serif;">@2024 privacy policy</p>
+            </div>
+              <div class="contactform">
+                  <h2><b>Contact Form</b></h2>
+                  <form>
+                      <input class="inputf" type="text" name="name" placeholder="Enter Full Name" required><br><br>
+                      <input class="inputf" type="email" name="email" placeholder="Enter Email" required><br><br>
+                      <textarea class="inputf" name="message" placeholder="Enter Message" required></textarea><br>
+                      <button class="inputb" type="submit">SUBMIT</button>
+                    </form>
+                </div>
+            </div>
+<br>
+</section>
+    
+</body>
+</html>
